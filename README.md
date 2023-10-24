@@ -1,12 +1,11 @@
- 
-<h1 align="center"><a href="https://portfolio-tanmoy.netlify.app//main.html" target="_blank">Portfolio</a></h1>
+<h1 align="center"><a href="https://portfolio-tanmoy.netlify.app//main.html" target="_blank"># Portfolio</a></h1>
 
 
 
 
 
 <h2>About</h2>
-#This is my personal portfolio
+#This is my personal portfolio ,
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 
