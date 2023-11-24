@@ -6,7 +6,7 @@
 
 <h2>About</h2>
 #This is my personal portfolio ,
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with React js.
 
 
 <h2>Ingredients</h2>
