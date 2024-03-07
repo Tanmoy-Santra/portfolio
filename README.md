@@ -1,3 +1,75 @@
+<h1 align="center"><a href="https://portfolio-tanmoy.netlify.app" target="_blank">Portfolio</a></h1><hr>
+
+## About 
+- This is my personal portfolio .
+- This project was bootstrapped with React js.
+
+## Project Structure
+Briefly explain the structure of your project. For example:
+  - `src/`: Contains source code
+  - `components/`: React components
+  - `App.js`: Main application file
+  - `App.css`: Styles for the app
+  - ...
+
+## Components
+List and briefly describe the main components used in your app.
+
+- `About`: All about myself.
+- `Home`: Basic information about myself.
+- `Project`: Description of the Projects made by me.
+- `Contact`: All Contact details
+- `Resume`: Contain my resume .
+- `SendMsg`: Send massage to me for contact.
+
+## Routing
+Explain how routing is handled in your app. For example:
+- Used React Router for navigation
+- Routes defined in `App.js`
+- Each route corresponds to a specific component
+
+## Installation
+Provide instructions on how to install and run your React app. For example:
+1. Clone the repository: `git clone [repository-url]`
+2. Navigate to the project folder: `cd [project-folder]`
+3. Install dependencies: `npm install`
+4. Run the app: `npm start`
+
+
+## Dependencies
+
+- React
+- React Router
+- Bootstrap
+
+## Contact
+- Email : <a>tanmoysantra911@gmail.com</a>
+- LinkedIn : <a href="https://www.linkedin.com/in/tanmoy-santra-986b32252/)">www.linkedin.com/in/tanmoy-santra-986b32252</a>
+
+## Demo
+
+<div align="center">
+  <img alt="Demo" src="public/home1.png" />
+  
+  <img alt="Demo" src="public/home2.png" />
+  
+  <img alt="Demo" src="public/home3.png" />
+</div>
+
+
+
+
+## Ingredients 
+<p align=center>
+    <img alt="HTML5" src="https://img.shields.io/badge/html5-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white" />
+    <img alt="CSS3" src="https://img.shields.io/badge/css3-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white" />
+    <img alt="JavaScript" src="https://img.shields.io/badge/javascript-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" />
+    <img alt="Netlify" src="https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7" />
+  <img alt="react" src="https://img.shields.io/badge/react-%23000000.svg?&style=for-the-badge&logo=react&logoColor=#00C7B7" />
+    <img alt="bootstrap" src="https://img.shields.io/badge/bootstrap-%23000000.svg?&style=for-the-badge&logo=bootstrap&logoColor=#00C7B7" />
+</p>
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -70,76 +142,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 
-<h1 align="center"><a href="https://portfolio-tanmoy.netlify.app" target="_blank">Portfolio</a></h1><hr>
-
-## About 
-- This is my personal portfolio .
-- This project was bootstrapped with React js.
-
-## Project Structure
-Briefly explain the structure of your project. For example:
-  - `src/`: Contains source code
-  - `components/`: React components
-  - `App.js`: Main application file
-  - `App.css`: Styles for the app
-  - ...
-
-## Components
-List and briefly describe the main components used in your app.
-
-- `About`: All about myself.
-- `Home`: Basic information about myself.
-- `Project`: Description of the Projects made by me.
-- `Contact`: All Contact details
-- `Resume`: Contain my resume .
-- `SendMsg`: Send massage to me for contact.
-
-## Routing
-Explain how routing is handled in your app. For example:
-- Used React Router for navigation
-- Routes defined in `App.js`
-- Each route corresponds to a specific component
-
-## Installation
-Provide instructions on how to install and run your React app. For example:
-1. Clone the repository: `git clone [repository-url]`
-2. Navigate to the project folder: `cd [project-folder]`
-3. Install dependencies: `npm install`
-4. Run the app: `npm start`
-
-
-## Dependencies
-
-- React
-- React Router
-- Bootstrap
-
-## Contact
-- Email : <a>tanmoysantra911@gmail.com</a>
-- LinkedIn : <a href="https://www.linkedin.com/in/tanmoy-santra-986b32252/)">www.linkedin.com/in/tanmoy-santra-986b32252</a>
-
-## Demo
-
-<div align="center">
-  <img alt="Demo" src="public/home1.png" />
-  
-  <img alt="Demo" src="public/home2.png" />
-  
-  <img alt="Demo" src="public/home3.png" />
-</div>
-
-
-
-
-## Ingredients 
-<p align=center>
-    <img alt="HTML5" src="https://img.shields.io/badge/html5-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white" />
-    <img alt="CSS3" src="https://img.shields.io/badge/css3-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white" />
-    <img alt="JavaScript" src="https://img.shields.io/badge/javascript-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" />
-    <img alt="Netlify" src="https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7" />
-  <img alt="react" src="https://img.shields.io/badge/react-%23000000.svg?&style=for-the-badge&logo=react&logoColor=#00C7B7" />
-    <img alt="bootstrap" src="https://img.shields.io/badge/bootstrap-%23000000.svg?&style=for-the-badge&logo=bootstrap&logoColor=#00C7B7" />
-</p>
 
 
 
