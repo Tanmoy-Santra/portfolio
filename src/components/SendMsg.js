@@ -19,8 +19,7 @@ const SendMsg = () => {
       )
       .then(
         (result) => {
-          console.log(result.text);
-          window.location.reload();
+          console.log(result.text);         
           alert("message sent sucessfully !");
                 },
         (error) => {

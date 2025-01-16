@@ -5,7 +5,7 @@ import Buttompart from './Buttompart';
 
 export default function Resume() {
   const contactItems = [
-    { icon: 'fa-brands fa-google-drive', text: 'https://drive.google.com/file/d/1psANLhY54-Wv01fsyv7q2dIZ82zmYPyV/view?usp=sharing' }
+    { icon: 'fa-brands fa-google-drive', text: 'https://drive.google.com/file/d/1f4dqZPPV2LuPQp8mR6pFvH7ENdVMoUqp/view?usp=sharing' }
 
 
   ];
@@ -31,14 +31,14 @@ export default function Resume() {
           {contactItems.map((item, index) => (
             <div key={index} className="contact-item text-light">
               <i className={`fa ${item.icon}`} />
-              <span className='text-light'><a href="https://drive.google.com/file/d/1psANLhY54-Wv01fsyv7q2dIZ82zmYPyV/view?usp=sharing">{item.text}</a></span>&nbsp;&nbsp;
+              <span className='text-light'><a href="https://drive.google.com/file/d/1f4dqZPPV2LuPQp8mR6pFvH7ENdVMoUqp/view?usp=sharing">{item.text}</a></span>&nbsp;&nbsp;
               <button
                 className="copy-button "
                 onClick={() => handleCopyClick(item.text)}
               >
                 Copy
               </button>&nbsp;&nbsp;
-              <Link to='https://drive.google.com/file/d/1psANLhY54-Wv01fsyv7q2dIZ82zmYPyV/view?usp=sharing'>
+              <Link to='https://drive.google.com/file/d/1f4dqZPPV2LuPQp8mR6pFvH7ENdVMoUqp/view?usp=sharing'>
               <button className='copy-button' >
                 Open
               </button></Link>
