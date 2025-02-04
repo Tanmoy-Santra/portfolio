@@ -18,9 +18,11 @@ export default function Home() {
             <div class="col-sm-6 mb-5 mb-sm-0">
               <div class="card bg-transparent border-0">
                 <div class="card-body">
-                  <p class="card-text  text-size-custom-home">
-                    Hi There! <span class='wave text-light' role='img' area-labelledby='wave'>👋🏻</span><br></br>I'M<span class='name-style '> TANMOY SANTRA</span>
-                  </p>
+                <p class="card-text text-size-custom-home">
+                Hi There! <span class='wave text-light' role='img' aria-labelledby='wave'>👋🏻</span><br/>
+                I'M <span class='name-style'>TANMOY SANTRA</span>
+              </p>
+
                   <div id='Type' className='type-class'>
                     <Type />
                   </div>                 
@@ -42,19 +44,20 @@ export default function Home() {
               <div class="col-sm-6 mb-3 mb-sm-0 col-sm-6-border">
                 <div class="card bg-transparent border-0">
                   <div class="card-body">
-                    <p class="card-text text-size-custom-home"><span class='head-lower-card '>LET ME <span class='introduce'>INTRODUCE</span> MYSELF</span></p>
-                    <p class='paragraph-body'>I fell in love with programming and I have at least learnt something, I think… 🤷‍♂️<br></br><br></br>I am fluent in classics like <span class='introduce'>C,python,Java and C++.</span><br></br><br></br>My field of Interest's are building new  <span class='introduce'>Web pages</span> and Products and also in areas related to <span class='introduce'>web development.</span><br></br><br></br>I also work with databases in PHP ,SQL inside my <span class='introduce'>Web development projects</span>  and Frameworks  <span class='introduce'>like React.js and Next.js</span></p>
+                    <p class="card-text text-size-custom-home glow-text"><span class='head-lower-card '>LET ME <span class='introduce'>INTRODUCE</span> MYSELF</span></p>
+                    <p class='paragraph-body glow-text'>I fell in love with programming and I have at least learnt something, I think… 🤷‍♂️<br></br><br></br>I am fluent in classics like <span class='introduce'>C,python,Java and C++.</span><br></br><br></br>My field of Interest's are building new  <span class='introduce'>Web pages</span> and Products and also in areas related to <span class='introduce'>web development.</span><br></br><br></br>I also work with databases in PHP ,SQL inside my <span class='introduce'>Web development projects</span>  and Frameworks  <span class='introduce'>like React.js and Next.js</span></p>
                     
                   </div>
                 </div>
               </div>
               <div class="col-sm-6 col-sm-6-border">
-                <div class="card bg-transparent border-0">
-                  <div class="card-body">
-                    <img class="img-fluid rounded-start" src="./home-profile.png" height='300px'></img>
-                  </div>
+              <div class="card bg-transparent border-0">
+                <div class="card-body">
+                  <img class="img-fluid rounded-start bounce-img" src="./home-profile.png" height="300px"/>
                 </div>
               </div>
+            </div>
+
             </div>
           </div>
         </div>

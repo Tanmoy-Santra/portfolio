@@ -294,3 +294,118 @@
   background-color: white;
   
 }
+/* hand wave */
+
+@keyframes waveAnimation {
+  0% { transform: rotate(0deg); }
+  20% { transform: rotate(20deg); }
+  40% { transform: rotate(0deg); }
+  60% { transform: rotate(20deg); }
+  80% { transform: rotate(0deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.wave {
+  display: inline-block;
+  animation: waveAnimation 1.5s infinite ease-in-out;
+  transform-origin: 70% 70%; /* Adjust rotation point */
+}
+
+
+/* animate img */
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.bounce-img {
+  animation: bounce 1.5s infinite ease-in-out;
+}
+
+.glow-text {
+  color: #fff;
+  text-shadow: 0 0 3px #0ff, 0 0 6px rgb(16, 211, 211);
+  animation: glowAnimation 2.5s infinite alternate;
+}
+
+@keyframes glowAnimation {
+  0% {
+    text-shadow: 0 0 0px #0ff, 0 0 0px rgb(16, 211, 211);
+  }
+  100% {
+    text-shadow: 0 0 2px rgb(16, 211, 211), 0 0 4px #0ff;
+  }
+}
+
+
+
+@keyframes bounceSkill {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes glowEffect {
+  0% {
+    box-shadow: 0 0 5px rgba(0, 255, 255, 0.5);
+  }
+  100% {
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.9);
+  }
+}
+
+.alphabet-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.alphabet-letter {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: white;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+  animation: bounceSkill 1.5s infinite alternate ease-in-out;
+}
+
+.alphabet-letter:hover {
+  animation: glowEffect 0.8s infinite alternate ease-in-out;
+  transform: scale(1.1);
+}
+
+.custom-card {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.custom-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 20px rgba(255, 255, 255, 0.1);
+}
+.project-title {
+  font-size: 1.5rem; /* Default font size */
+}
+
+@media (max-width: 768px) {
+  .project-title {
+      font-size: 2rem; /* Increase font size on mobile */
+      font-weight: bold;
+      text-align: center;
+  }
+}
+.bg-custom{
+  background-color:  rgb(74, 34, 107);
+}

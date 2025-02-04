@@ -16,7 +16,7 @@ export default function About() {
                             <div class="col-sm-6 mb-3 mb-sm-0">
                                 <div class="card bg-transparent text-light border-0">
                                     <div class="card-body">
-                                        <p class="card-text"><span class='head-lower-card fs-1'>KNOW <span class='introduce'>WHO </span> I'M</span></p>
+                                        <p class="card-text glow-text"><span class='head-lower-card fs-1'>KNOW <span class='introduce'>WHO </span> I'M</span></p>
                                         <p class='paragraph-body'>Hi Everyone, I am <span class='introduce'>Tanmoy Santra</span> from <span class='introduce'> West Bengal, India.</span><br></br><br></br>pursuing a Bachelor of Technology (B.Tech) degree in <span class='introduce'>Computer Science and Engineering</span> ,At  <span class='introduce'>MCKV Institute of Engineering .<br></br><br></br></span>Apart from coding, some other activities that I love to do!<br></br><br></br>
                                             <li>Playing Cricket</li>
                                             <li>Playing Online Games</li>
@@ -28,7 +28,7 @@ export default function About() {
                             <div class="col-sm-6">
                                 <div class="card bg-transparent border-0">
                                     <div class="card-body">
-                                        <img class="img-fluid rounded-start" src="./new-frofile.png" height='300px'></img>
+                                        <img class="img-fluid rounded-start bounce-img" src="./new-frofile.png" height='300px'></img>
                                     </div>
                                 </div>
                             </div>
