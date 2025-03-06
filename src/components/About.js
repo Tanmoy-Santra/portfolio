@@ -37,26 +37,36 @@ export default function About() {
                 </div>
 
             </div>
-            <div class='container py-5 my-5'><p class='text-center fs-1 text-light'>Professional <span class='introduce'>Skillset</span></p><br></br><br></br>
+            <div class='container py-5 my-5'>
+    <p class='text-center fs-1 text-light'>Professional <span class='introduce'>Skillset</span></p><br></br><br></br>
 
-                <body>
-                    <div class="alphabet-container">
-                        <div class="alphabet-letter"><i id ='icon-skill'class="fab fa-c fa-2x"></i></div>
-                        <div class="alphabet-letter"><i id ='icon-skill'class="fab  fa-2x"></i>C++</div>
-                        <div class="alphabet-letter"><i id ='icon-skill'class="fab fa-html5 fa-2x"></i></div>
-                        <div class="alphabet-letter"><i id ='icon-skill'class="fab fa-css3 fa-2x"></i></div>
-                        <div class="alphabet-letter"><i id ='icon-skill'class="fab fa-bootstrap fa-2x"></i></div>
-                        <div class="alphabet-letter"><i id ='icon-skill'class="fab fa-python fa-2x"></i></div>
-                        <div class="alphabet-letter"><i id ='icon-skill'class="fab fa-java fa-2x"></i></div>
-                        <div class="alphabet-letter"><i id ='icon-skill'class="fab fa-react fa-2x"></i></div>
-                        <div class="alphabet-letter"><i id ='icon-skill'class="fab fa-node js fa-2x"></i></div>
-                        <div class="alphabet-letter"><i id ='icon-skill'class="fab fa-js fa-2x"></i></div>
-                        <div class="alphabet-letter"><i id ='icon-skill'class="fab fa-php fa-2x"></i></div>
+    <body>
+        <div class="alphabet-container">
+            <div class="alphabet-letter"><i class="fab fa-c fa-2x"></i></div>
+            <div class="alphabet-letter"><i class="fab fa-2x"></i>C++</div>
+            <div class="alphabet-letter"><i class="fab fa-html5 fa-2x"></i></div>
+            <div class="alphabet-letter"><i class="fab fa-css3 fa-2x"></i></div>
+            <div class="alphabet-letter"><i class="fab fa-bootstrap fa-2x"></i></div>
+            <div class="alphabet-letter"><i class="fab fa-python fa-2x"></i></div>
+            <div class="alphabet-letter"><i class="fab fa-java fa-2x"></i></div>
+            <div class="alphabet-letter"><i class="fab fa-react fa-2x"></i></div>
+            <div class="alphabet-letter"><i class="fab fa-node-js fa-2x"></i></div>
+            <div class="alphabet-letter"><i class="fab fa-js fa-2x"></i></div>
+            <div class="alphabet-letter"><i class="fab fa-php fa-2x"></i></div>
+            <div class="alphabet-letter"><i class="fab fa-tailwind fa-2x"></i></div>
+            <div class="alphabet-letter"><i class="fab fa-mdb fa-2x"></i>MongoDB</div>
+            <div class="alphabet-letter"><i class="fab fa-aws fa-2x"></i></div>
+            <div class="alphabet-letter"><i class="fab fa-google fa-2x"></i>Firebase</div>
+            <div class="alphabet-letter"><i class="fas fa-chart-bar fa-2x"></i>Tableau</div>
+            <div class="alphabet-letter"><i class="fab fa-canadian-maple-leaf fa-2x"></i>Canva</div>
+            <div class="alphabet-letter"><i class="fab fa-node-js fa-2x"></i>Node.js</div>
+            <div class="alphabet-letter"><i class="fab fa-js-square fa-2x"></i>Express.js</div>
+            <div class="alphabet-letter"><i class="fas fa-bolt fa-2x"></i>Vite</div>
+            <div class="alphabet-letter"><i class="fas fa-database fa-2x"></i>SQL (Oracle)</div>
+        </div>
+    </body>
+</div>
 
-
-                    </div>
-                </body>
-            </div>
             <Buttompart></Buttompart>
         </body>
     )
