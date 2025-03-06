@@ -26,8 +26,8 @@ export default function Buttompart() {
                         <li><a href='#'><i className="fab fa-facebook"></i></a></li>
                         <li><a href='#'><i className="fab fa-twitter"></i></a></li>
                         <li><a href='#'><i className="fab fa-instagram"></i></a></li>
-                        <li><a href='https://github.com/Tanmoy-Santra'><i className="fab fa-github"></i></a></li>
-                        <li><a href='https://www.linkedin.com/in/tanmoy-santra-986b32252/'><i className="fab fa-linkedin-square"></i></a></li>
+                        <li><a href='https://github.com/Tanmoy-Santra' target="_blank" ><i className="fab fa-github"></i></a></li>
+                        <li><a href='https://www.linkedin.com/in/tanmoy-santra-986b32252/' target="_blank" ><i className="fab fa-linkedin-square"></i></a></li>
                     </ul>
 
                 </div>
