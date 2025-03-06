@@ -53,14 +53,14 @@ export default function About() {
             <div class="alphabet-letter"><i class="fab fa-node-js fa-2x"></i></div>
             <div class="alphabet-letter"><i class="fab fa-js fa-2x"></i></div>
             <div class="alphabet-letter"><i class="fab fa-php fa-2x"></i></div>
-            <div class="alphabet-letter"><i class="fab fa-tailwind fa-2x"></i></div>
-            <div class="alphabet-letter"><i class="fab fa-mdb fa-2x"></i>MongoDB</div>
+            <div class="alphabet-letter">Tailwind CSS</div>
+            <div class="alphabet-letter">MongoDB</div>
             <div class="alphabet-letter"><i class="fab fa-aws fa-2x"></i></div>
             <div class="alphabet-letter"><i class="fab fa-google fa-2x"></i>Firebase</div>
             <div class="alphabet-letter"><i class="fas fa-chart-bar fa-2x"></i>Tableau</div>
             <div class="alphabet-letter"><i class="fab fa-canadian-maple-leaf fa-2x"></i>Canva</div>
-            <div class="alphabet-letter"><i class="fab fa-node-js fa-2x"></i>Node.js</div>
-            <div class="alphabet-letter"><i class="fab fa-js-square fa-2x"></i>Express.js</div>
+            <div class="alphabet-letter">Node.js</div>
+            <div class="alphabet-letter">Express.js</div>
             <div class="alphabet-letter"><i class="fas fa-bolt fa-2x"></i>Vite</div>
             <div class="alphabet-letter"><i class="fas fa-database fa-2x"></i>SQL (Oracle)</div>
         </div>
